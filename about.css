@@ -1,0 +1,101 @@
+body{
+	background-color: #f3f3f3;
+	background-image: url("fotootje.png")
+	padding:0;
+	margin:0;
+	font-family: monospace;
+}
+
+.topnav {
+  background-color: #333;
+}
+
+
+.topnav a {
+  display:inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 21%;
+  transition: all 0.75s ease;
+  font-family: monospace;
+}
+
+
+.topnav a:hover {
+  background-color: #333;
+  color: grey;
+}
+
+
+.topnav a.active {
+  background-color: #333;
+  color: white;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 19px;
+}
+
+.topnav a.active:hover {
+  background-color: #333;
+  color: grey;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  font-family: monospace;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 2000px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #BBCACE;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #021216;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #D6E1E3;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #616D71;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #C9C7CA;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
