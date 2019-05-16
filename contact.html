@@ -17,6 +17,38 @@
         color: #a6a6a6;
         text-align: center;
 }
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
 </style>
   
 </head>
@@ -36,16 +68,30 @@
     <a href="about.html">About</a>
   </div>
   
+  <p>
+  Ik neem aan dat je een vraag hebt sinds je hier op de contactpagina bent beland. Nou hier zit je zeker goed, meid! Misschien is het ook wel handig als je weet naar wie je de vraag stuurt dus bij deze gaan wij ons even voorstellen. Wij zijn Venus en Isra beter bekend als Veis als in Nice. Heb je een date nodig, kom je niet over je ex heen of ben je gewoon op zoek naar een leuk iemand? Dan zit je hier heel erg fout, want dit is geen Tinder. Heb je iets raars opgemerkt of heb je een vraag vul het onderstaande formulier dan maar in. Wij hebben zeer hard gewerkt aan deze site dus zet de kritiek aan de kant en stuur gewoon positieve opmerkingen. Onze verzend-knop is net zo snel als het 5G-netwerk dus verzend erop los.  Als wij niet binnen 1-2 werkdagen hebben gereageerd dan was het vast en zeker een hele domme vraag, want wij reageren niet op niet relevante vragen. Wij hopen u bij deze voldoende te hebben geïnformeerd en zo niet? Lees dit hele stuk dan maar opnieuw. Groetjes, Veis!
+  </p>
+  
 <h2>Verzend een mail naar ons om de nieuwsbrief te ontvangen:</h2>
 
-<form action="mailto:110298@st-maartenscollege.nl" method="post" enctype="text/plain">
-Naam:<br>
-<input type="text" name="name"><br>
-E-mail:<br>
-<input type="text" name="mail"><br>
-<input type="submit" value="Verzend">
-<input type="reset" value="Opnieuw">
-</form>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
 
 </body>

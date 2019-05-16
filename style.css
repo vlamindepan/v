@@ -20,7 +20,7 @@ body{
   font-size: 17px;
   width: 21%;
   transition: all 0.75s ease;
-  font-family: arial;
+  font-family: monospace;
 }
 
 
@@ -33,7 +33,7 @@ body{
 .topnav a.active {
   background-color: #333;
   color: white;
-  font-name: fjalla one;
+  font-family: monospace;
   font-weight: bolder;
   font-size: 19px;
 }
