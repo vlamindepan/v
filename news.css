@@ -1,5 +1,5 @@
 body{
-	background-image: url(nee.png);
+	background-image: url("chip.png");
 	padding:0;
 	margin:0;
 	font-family: monospace;
@@ -32,7 +32,7 @@ body{
 .topnav a.active {
   background-color: #333;
   color: white;
-  font-name: fjalla one;
+  font-family: fjalla one;
   font-weight: bolder;
   font-size: 19px;
 }
@@ -42,9 +42,4 @@ body{
   color: grey;
 }
 
-.table a {
-	float: centre;
-	margin-left: 10px;
-	margin-right: 10 px;
-	border: 5px;
-}
+

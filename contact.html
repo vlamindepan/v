@@ -8,16 +8,7 @@
   <link rel="shortcut icon" type="image/png" href="downloads.png" >
   
    <style>
-        .footer {
-        
-        left: 0px;
-        bottom: 0px;
-        width: 100%;
-        background-color: #e6e6e6;
-        color: #a6a6a6;
-        text-align: center;
-		
-}
+
 
 input[type=text], select {
   width: 100%;
@@ -44,12 +35,21 @@ input[type=submit]:hover {
   background-color: pink;
 }
 
-div {
+.form {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
 
+        .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #e6e6e6;
+        color: #a6a6a6;
+        text-align: center;
+        padding: 5px 5px;
+}
 </style>
   
 </head>
@@ -64,13 +64,13 @@ div {
     <a href="about.html">About</a>
   </div>
   
-  <p>
-  Ik neem aan dat je een vraag hebt sinds je hier op de contactpagina bent beland. Nou hier zit je zeker goed, meid! Misschien is het ook wel handig als je weet naar wie je de vraag stuurt dus bij deze gaan wij ons even voorstellen. Wij zijn Venus en Isra beter bekend als Veis als in Nice. Heb je een date nodig, kom je niet over je ex heen of ben je gewoon op zoek naar een leuk iemand? Dan zit je hier heel erg fout, want dit is geen Tinder. Heb je iets raars opgemerkt of heb je een vraag vul het onderstaande formulier dan maar in. Wij hebben zeer hard gewerkt aan deze site dus zet de kritiek aan de kant en stuur gewoon positieve opmerkingen. Onze verzend-knop is net zo snel als het 5G-netwerk dus verzend erop los.  Als wij niet binnen 1-2 werkdagen hebben gereageerd dan was het vast en zeker een hele domme vraag, want wij reageren niet op niet relevante vragen. Wij hopen u bij deze voldoende te hebben geïnformeerd en zo niet? Lees dit hele stuk dan maar opnieuw. Groetjes, Veis!
+  <p class="stukje">
+  Ik neem aan dat je een vraag hebt sinds je hier op de contactpagina bent beland. Nou hier zit je zeker goed, meid! Misschien is het ook wel handig als je weet naar wie je de vraag stuurt dus bij deze gaan wij ons even voorstellen. Wij zijn Venus en Isra beter bekend als Veis (=spreek uit als nice). Heb je een date nodig, kom je niet over je ex heen of ben je gewoon op zoek naar een leuk iemand? Dan zit je hier heel erg fout, want dit is geen Tinder (maar Venus is wel single(; ). Heb je iets raars opgemerkt of heb je een vraag vul het onderstaande formulier dan maar in. Wij hebben zeer hard gewerkt aan deze site dus zet de kritiek aan de kant en stuur gewoon positieve opmerkingen. Onze verzend-knop is net zo snel als het 5G-netwerk dus verzend erop los.  Als wij niet binnen 1-2 werkdagen hebben gereageerd dan was het vast en zeker een hele domme vraag, want wij reageren niet op niet relevante vragen. Wij hopen u bij deze voldoende te hebben ge&iuml;nformeerd en zo niet? Lees dit hele stuk dan maar opnieuw. Groetjes, Veis!
   </p>
   
 <h2>Verzend een mail naar ons om de nieuwsbrief te ontvangen:</h2>
 
-<div>
+<div class="form">
   <form action="/action_page.php">
     <label for="fname">Voornaam</label>
     <input type="text" id="fname" name="firstname" placeholder="Uw voornaam...">
@@ -80,6 +80,7 @@ div {
 
 	<label for="opmerkingen">Opmerkingen</label>
 	<input type="text" id="opm" name="opm" placeholder="Eventuele opmerkingen...">
+      
     <label for="country">Country</label>
     <select id="country" name="country">
       <option value="Nederland">Nederland</option>
@@ -87,7 +88,7 @@ div {
       <option value="Duitsland">Duitsland</option>
 	  <option value="Overige">Overige</option>
     </select>
-  
+    
     <input type="submit" value="Submit">
   </form>
 </div>
