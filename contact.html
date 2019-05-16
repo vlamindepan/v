@@ -9,13 +9,14 @@
   
    <style>
         .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
+        
+        left: 0px;
+        bottom: 0px;
         width: 100%;
         background-color: #e6e6e6;
         color: #a6a6a6;
         text-align: center;
+		
 }
 
 input[type=text], select {
@@ -29,8 +30,8 @@ input[type=text], select {
 }
 
 input[type=submit] {
-  width: 50%;
-  background-color: #4CAF50;
+  width: 100%;
+  background-color: #8080ff;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -40,7 +41,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: pink;
 }
 
 div {
@@ -55,11 +56,6 @@ div {
 
 <body>
   
-  <div class="footer">
-    <p>
-      Copyright &copy; 2019 Venus en Isra Inc. Alle rechten voorbehouden.
-    </p>
-  </div>
   
   <div class="topnav">
     <a class="index.html" href="index.html">5G</a>
@@ -76,24 +72,32 @@ div {
 
 <div>
   <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <label for="fname">Voornaam</label>
+    <input type="text" id="fname" name="firstname" placeholder="Uw voornaam...">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label for="lname">Achternaam</label>
+    <input type="text" id="lname" name="lastname" placeholder="Uw achternaam...">
 
+	<label for="opmerkingen">Opmerkingen</label>
+	<input type="text" id="opm" name="opm" placeholder="Eventuele opmerkingen...">
     <label for="country">Country</label>
     <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
+      <option value="Nederland">Nederland</option>
+      <option value="België">België</option>
+      <option value="Duitsland">Duitsland</option>
+	  <option value="Overige">Overige</option>
     </select>
   
     <input type="submit" value="Submit">
   </form>
 </div>
 
-
+<div class="footer">
+    <p>
+      Copyright &copy; 2019 Venus en Isra Inc. Alle rechten voorbehouden.
+    </p>
+  </div>
+  
 </body>
 
 </html>
