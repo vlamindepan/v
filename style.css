@@ -70,9 +70,9 @@ body{
 svg {
     display: block;
     font: 10.5em 'Arial';
-    width: 800px;
+    width: 900px;
     height: 400px;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .text-copy {
