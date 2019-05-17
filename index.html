@@ -31,11 +31,35 @@ p.ex1 {
   margin-top: 25px;
 }
 </style>
-  
+
+ <style>
+.text-block {
+  position: absolute;
+  bottom: -570px;
+  right: 140px;
+  background-color: transparent;
+  color: black;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 0px;
+  width: 1000px;
+  font-family: Times New Roman;
+} 
+</style> 
+
+<style>
+.container {
+	position: relative; 
+	font-family: Arial; 	
+}
+</style>
+
 </head>
 
-<body>
+
+
  
+<body>
   
   <div class="footer">
     <p>
@@ -49,9 +73,30 @@ p.ex1 {
     <a href="contact.html">Contact</a>
     <a href="about.html">About</a>
   </div>
-  <p class="ex1">
-    <img src="fotootje.png" alt="Achtergrond" width="100%" position="bottom">
-  </p>
+  
+    <div class="container">
+  <img src="fotootje.png" alt="Achtergrond" style="width:100%;position:absolute;">
+  <div class="text-block">
+  <p><font size="4">5G staat voor de vijfde generatie mobiele netwerken. Kenmerkend voor 5G is de extreem hoge snelheid. Maar het is niet alleen sneller, het kan ook meer data versturen, is betrouwbaarder en zorgt voor een veel langere batterijduur. Zo kunnen bijvoorbeeld tractoren zelf rijden, kunnen gewassen worden voorzien van sensoren en continu worden gecontroleerd op ziekten en kunnen artsen op afstand een patiënt in een ambulance beoordelen. Tenslotte is de vertraging in het netwerk vele malen kleiner vanwege de grotere bandbreedte die de 5G techniek gebruikt.
+
+De mogelijke snelheden van 5G zijn zo hoog dat het een serieuze vervanger kan worden van 'vast internet', dit zou betekenen dat glasvezel/kabel en DSL verbindingen overbodig zouden kunnen worden.</font></p>
+
+<svg viewBox="0 0 960 300">
+	<symbol id="s-text">
+		<text text-anchor="middle" x="50%" y="80%">5G</text>
+	</symbol>
+
+	<g class = "g-ants">
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+		<use xlink:href="#s-text" class="text-copy"></use>
+	</g>
+</svg>
+  </div>
+  </div>
+  
 </body>
 
 </html>
