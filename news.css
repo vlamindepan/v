@@ -1,5 +1,10 @@
-body{
-	background-image: url("5Ggif.gif");
+
+
+html, body{
+	background-image: url("achterlijk.gif");
+    background-position: right;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
 	padding:0;
 	margin:0;
 	font-family: monospace;
@@ -42,3 +47,29 @@ body{
   color: grey;
 }
 
+ .footer {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #e6e6e6;
+        color: #a6a6a6;
+        text-align: center;
+        padding: 5px 5px;
+}
+
+ .img{
+      height: 30px;
+      width: 40px;
+    }
+
+ .table {
+            color: black;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: times;
+        }
